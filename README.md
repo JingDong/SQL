@@ -1,1 +1,1 @@
-# Practice of Database questions on Leetcode
+# Solutions of database questions on Leetcode
