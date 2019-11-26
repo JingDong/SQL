@@ -120,6 +120,13 @@ from courses
 group by class
 HAVING COUNT(*) >= 5
 ```
+597. Friend Requests I: Overall Acceptance Rate
+```sql
+SELECT 
+ROUND(IFNULL(COUNT(DISTINCT requester_id, accepter_id) / COUNT(DISTINCT sender_id, send_to_id), 0), 2) AS accept_rate
+FROM friend_request, request_accepted;
+```
+
 603. Consecutive Available Seats
 ```sql
 select distinct(c1.seat_id)
