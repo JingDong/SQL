@@ -1,4 +1,5 @@
 <h3>Week of 11/18</h3>
+
 175. Combine Two Tables
 ```sql
 select
@@ -111,6 +112,7 @@ Where population > 25000000 or area > 3000000;
 ```
 
 <h3>Week of 11/25</h3>
+
 596. Classes More Than 5 Students
 ```sql
 select class 
